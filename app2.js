@@ -1,0 +1,10 @@
+const sayHi = require('./utilities')
+const names = require('./names')
+const data = require('./app3')
+require('./mind')
+console.log(names)
+console.log(data)
+
+sayHi('susan')
+sayHi(names.john)
+sayHi(names.peter)
